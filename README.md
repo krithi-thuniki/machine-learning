@@ -1,77 +1,80 @@
-# Machine Learning
+📈 Linear Regression
 
-A collection of my Machine Learning learning journey, implementations, experiments, and projects using Python and popular Machine Learning libraries.
+The first implementation in this repository is Simple Linear Regression.
 
-This repository contains implementations of different Machine Learning algorithms, along with notebooks, datasets, visualizations, and practical projects.
+Dataset
 
----
+The height_weight.csv dataset contains height and weight data used to understand the relationship between the two variables.
 
-## 📚 Algorithms Covered
+Concepts Covered
+Loading and exploring datasets
+Data visualization
+Train-test split
+Feature scaling
+Simple Linear Regression
+Model training
+Predictions
+Model evaluation
+Best-fit regression line
+Scikit-learn implementation
+Statsmodels OLS implementation
+Streamlit deployment
+Project Files
+File	Description
+simple_linear_regression.ipynb	Complete implementation and explanation
+height_weight.csv	Dataset used for training
+app.py	Streamlit application
+🔬 Machine Learning Workflow
 
-### 1. Supervised Learning
+The general workflow followed in this repository is:
 
-#### Regression
-- Linear Regression
-- Multiple Linear Regression
-- Polynomial Regression
-- Ridge Regression
-- Lasso Regression
+Dataset
+   ↓
+Data Understanding
+   ↓
+Data Cleaning
+   ↓
+Exploratory Data Analysis
+   ↓
+Feature Engineering
+   ↓
+Train-Test Split
+   ↓
+Feature Scaling
+   ↓
+Model Training
+   ↓
+Prediction
+   ↓
+Model Evaluation
+   ↓
+Visualization
+   ↓
+Deployment
+🎯 Goals
 
-#### Classification
-- Logistic Regression
-- K-Nearest Neighbors (KNN)
-- Support Vector Machine (SVM)
-- Naive Bayes
-- Decision Tree
-- Random Forest
+The purpose of this repository is to:
 
-### 2. Unsupervised Learning
+Build a strong foundation in Machine Learning
+Understand ML algorithms from fundamentals
+Implement algorithms using Python
+Practice working with real-world datasets
+Understand model training and evaluation
+Build practical Machine Learning projects
+Document my learning progress
+Develop projects suitable for an ML/AI portfolio
+🚀 Future Additions
 
-- K-Means Clustering
-- Hierarchical Clustering
-- Principal Component Analysis (PCA)
+This repository will gradually include:
 
----
-
-## 🛠️ Technologies & Tools
-
-- Python
-- Jupyter Notebook
-- NumPy
-- Pandas
-- Matplotlib
-- Seaborn
-- Scikit-learn
-- Statsmodels
-- Streamlit
-- Git & GitHub
-
----
-
-## 📂 Repository Structure
-
-```text
-machine-learning/
-│
-├── Linear_Regression/
-│   ├── app.py
-│   ├── height_weight.csv
-│   └── simple_linear_regression.ipynb
-│
-├── Multiple_Linear_Regression/
-│
-├── Logistic_Regression/
-│
-├── Decision_Tree/
-│
-├── Random_Forest/
-│
-├── KNN/
-│
-├── SVM/
-│
-├── Naive_Bayes/
-│
-├── PCA/
-│
-└── README.md
+More Machine Learning algorithms
+End-to-end ML projects
+Feature engineering techniques
+Model evaluation techniques
+Hyperparameter tuning
+Cross-validation
+Ensemble learning
+Dimensionality reduction
+Clustering
+ML deployment
+MLOps concepts
